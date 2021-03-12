@@ -1,0 +1,19 @@
+span {
+    width: 10%;
+    height: 10%;
+}
+#chickenPicture {
+    display: none;
+}
+#humanPicture {
+    display: none;
+}
+#raygunPicture {
+    display: none;
+}
+#tankPicture {
+    display: none;
+}
+#cowPicture {
+    display: none;
+}

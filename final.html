@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="final.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+<h1>Alien Dice</h1>
+<div class="container">
+    <div class="col-4">
+        <p>Cows:</p><p id="pointCow"></p>
+    </div>
+    <div class="col-4">
+        <p>Humans:</p><p id="pointHuman"></p>
+    </div>
+    <div class="col-4">
+        <p>Chickens:</p><p id="pointChicken"></p><br>
+    </div>
+</div>
+<div class="container2">
+    <div class="col-12">
+        <img id="cowPicture" src="img/cow.png">
+        <img id="chickenPicture" src="img/chicken.png">
+        <img id="humanPicture" src="img/human.png">
+        <img id="raygunPicture" src="img/raygun.png">
+        <img id="tankPicture" src="img/tank.png">
+    </div>
+</div>
+<p>Rerolls Remaining:</p><p id="rerollRem"></p>
+<button id="startTurn" onclick = "startTurn()">Start Turn</button>
+<button id="reroll" onclick = "rerollDie()">Reroll</button>
+<button id="endTurn" onclick = "endTurn()">End Turn</button>
+<button id="scoreX" onclick = "scoreX()">Cows</button>
+<button id="scoreY" onclick = "scoreY()">Chickens</button>
+<button id="scoreZ" onclick = "scoreZ()">Humans</button>
+
+
+
+
+
+
+
+
+
+<script src="final.js"></script>
+</body>
+</html>
